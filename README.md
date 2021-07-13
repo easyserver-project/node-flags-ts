@@ -87,7 +87,7 @@ These setters return the flag instance so they can be chained:
 
 ## Querying Flag Values
 
-A flag's value can be queried by either calling `flags.get('flagname')` or by querying the flags object directly `flags.FLAGS.flagname.get()`.
+A flag's value can be queried by either calling `flags.get('flagname')` or by querying the flags object directly `flags.Flags.flagname.get()`.
 
 The flag object also contains the following properties you may be interested in:
 

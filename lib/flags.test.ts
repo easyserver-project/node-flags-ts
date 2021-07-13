@@ -1,4 +1,4 @@
-import { flags } from './flagsTsWrapper'
+import { flags } from './index'
 
 describe('flags', () => {
   beforeAll(() => {

@@ -1,6 +1,6 @@
 {
   "name": "@easyserver-project/ts-flags",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Flag library for node.js",
   "keywords": [
     "flag",

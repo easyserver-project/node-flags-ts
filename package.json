@@ -1,27 +1,22 @@
 {
-  "name": "@easyserver-project/ts-flags",
-  "version": "0.1.4",
+  "name": "@easyserver-project/es-flags",
+  "repository": "https://github.com/easyserver-project/easyserver",
+  "version": "1.0.0",
   "description": "Flag library for node.js",
   "keywords": [
     "flag",
     "args",
     "command line"
   ],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/easyserver-project/node-flags-ts.git"
-  },
-  "homepage": "https://github.com/easyserver-project/node-flags-ts",
-  "author": {
-    "name": "Daniel Pupius",
-    "email": "dan@pupi.us",
-    "url": "http://pupius.co.uk"
-  },
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc && cp package.json ./dist"
+    "build": "tsc",
+    "start": "tsc --watch"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
